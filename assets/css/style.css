@@ -67,6 +67,12 @@ h1{
 
 /* code was written in code pen for a nice moving background with shapes https://codepen.io/subz/pen/GgPrJP */
 /* I changed the image to a different image other than the shapes */
+/* // Sprite Sheet animation with CSS3 using the steps() feature.
+// To change the speed, just edit the ".8s" animation time.
+
+// Post: http://simurai.com/blog/2012/12/03/step-animation/
+
+// Inspired by Lea's typing animation: http://t.co/9RPMmV7 */
 
 .hero-bkg-animated {
     background: gray url(../images/pink_dust.png) repeat 0 0;
@@ -193,3 +199,5 @@ h1{
      width: 240px;
      height: 240px;
  }
+ /* I was trying to size the image sheet but it made multiple rubys and bananas
+ I couldnt figure out how to change the sizing  */
