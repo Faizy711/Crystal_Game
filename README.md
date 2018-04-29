@@ -20,14 +20,14 @@ or go to <a href="https://faizy711.github.io/Crystal_Game/" target="_blank">Ruby
 
 Start the game by clicking on a sprite.
 
-#Built Using
+# Built Using
 \
 HTML\
 CSS\
 Javascript\
 jQuery
 
-#IceBox
+# IceBox
 \
 The sprites are too small for the user to see properly and I ama having trouble resizing them.
 
