@@ -130,17 +130,17 @@ h1{
             animation: play2 1s steps(3) infinite;
   }
 
-  .banana2{
+  .coin{
     text-align: center;
-    width: 24px;
-    height: 24px;
-    background-image: url("../images/banana.png");
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/blue_coin.png");
     
-    -webkit-animation: play2 1s steps(3) infinite;
-       -moz-animation: play2 1s steps(3) infinite;
-        -ms-animation: play2 1s steps(3) infinite;
-         -o-animation: play2 1s steps(3) infinite;
-            animation: play2 1s steps(3) infinite;
+    -webkit-animation: play3 .8s steps(6) infinite;
+       -moz-animation: play3 .8s steps(6) infinite;
+        -ms-animation: play3 .8s steps(6) infinite;
+         -o-animation: play3 .8s steps(6) infinite;
+            animation: play3 .8s steps(6) infinite;
   }
 
 
@@ -194,6 +194,31 @@ h1{
     from { background-position:    0px; }
       to { background-position: -72px; }
  }
+
+ @-webkit-keyframes play3 {
+  from { background-position:    0px; }
+    to { background-position: -420px; }
+}
+
+@-moz-keyframes play3 {
+  from { background-position:    0px; }
+    to { background-position: -420px; }
+}
+
+@-ms-keyframes play3 {
+  from { background-position:    0px; }
+    to { background-position: -420px; }
+}
+
+@-o-keyframes play3 {
+  from { background-position:    0px; }
+    to { background-position: -420px; }
+}
+
+@keyframes play3 {
+  from { background-position:    0px; }
+    to { background-position: -420px; }
+}
 
  .size{
      width: 240px;
